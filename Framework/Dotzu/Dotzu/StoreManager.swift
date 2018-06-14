@@ -41,7 +41,8 @@ class StoreManager<T> where T: NSCoding {
     func logs() -> [T] {
         guard let data = UserDefaults.standard.object(forKey: store.rawValue) as? NSData else {return []}
         do {
-            let dataArchive = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data)
+            let sData = Data(referencing: data)
+            let dataArchive = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(sData)
             return dataArchive as? [T] ?? []
         } catch {
             return []
