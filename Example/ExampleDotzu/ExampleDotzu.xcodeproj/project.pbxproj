@@ -125,7 +125,7 @@
 				TargetAttributes = {
 					BBF9FA561ECB9041003227BE = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 44Q2J6374R;
+						DevelopmentTeam = XQ9YLTYXWA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -287,10 +287,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 44Q2J6374R;
+				DEVELOPMENT_TEAM = XQ9YLTYXWA;
 				INFOPLIST_FILE = ExampleDotzu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.ExampleDotzu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xrj.ls.demo.remirobert.ExampleDotzu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -300,10 +300,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 44Q2J6374R;
+				DEVELOPMENT_TEAM = XQ9YLTYXWA;
 				INFOPLIST_FILE = ExampleDotzu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.ExampleDotzu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xrj.ls.demo.remirobert.ExampleDotzu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};

@@ -1,11 +1,10 @@
 Pod::Spec.new do |s|
-    s.name = 'Dotzu'
+    s.name = 'Dotzu-Swift4'
     s.version = '1.8.1'
     s.license = 'MIT'
     s.summary = 'iOS debugger tool for iOS developer. Display logs, network request, device informations, crash logs while using the app.'
-    s.homepage = 'https://github.com/remirobert/Dotzu'
-    s.social_media_url = 'https://twitter.com/remi936'
-    s.authors = { 'Rémi ROBERT' => 'remirobert33530@gmail.com' }
+    s.homepage = 'https://github.com/linshengFL/Dotzu'
+    s.authors = { 'Lin Sheng' => '649805526@qq.com' }
     s.source = { :git => 'https://github.com/linshengFL/Dotzu.git', :tag => s.version }
     s.ios.deployment_target = '9.0'
     s.ios.frameworks = 'UIKit', 'Foundation'
